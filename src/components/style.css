@@ -1,0 +1,19 @@
+h2 {
+    
+    z-index: 4;
+}
+img {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+#pizza-form {
+    background-color: grey;
+    margin: 40px 15%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin: 10px;
+}

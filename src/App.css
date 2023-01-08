@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
+  position: relative;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.616);
+}
+.links {
+  margin: 10px;
+}
+h1 {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.navlink {
+  position: relative;
+  right: 0;
+  outline: solid white;
+  height: 80%;
+  padding: 10px;
+  background: black;
+  color: white;
+  text-decoration: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#order-pizza {
+  position: absolute;
+  color: white;
+  border: solid white;
+  background: black;
+  text-decoration: none;
+  left: 45%;
+ z-index: 7;
+  font-size: 20px;
+}
+#pizza-form {
+  z-index: 8;
 }
